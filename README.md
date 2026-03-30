@@ -3,3 +3,5 @@
 Junior at UCF studying Information Technology. CompTIA Security+ certified, Network+ and CySA+ in progress. Focused on blue team, security monitoring, and building things hands on.
 
 https://trystanruiz.tech
+
+Currently working on: (SH honeypot + SIEM lab (Cowrie, T-POT, Splunk)
