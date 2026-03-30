@@ -4,4 +4,4 @@ Junior at UCF studying Information Technology. CompTIA Security+ certified, Netw
 
 https://trystanruiz.tech
 
-Currently working on: (SH honeypot + SIEM lab (Cowrie, T-POT, Splunk)
+Currently working on: T-POT honeypot deployment with Splunk integration
