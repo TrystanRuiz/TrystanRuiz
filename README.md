@@ -6,9 +6,9 @@ Seeking cybersecurity / SOC analyst / security operations internships where I ca
 
 ## Honeypot & SIEM
 
-- **[T-POT Honeypot Threat Intelligence](https://github.com/TrystanRuiz/tpot-honeypot-threat-intel)** `In Progress` - Deployed T-POT Standard Edition on Proxmox with 21 honeypot sensors across 50+ ports, capturing 762,000+ attack events from 115 unique IPs. Built a Python pipeline that extracts attacker IPs from Elasticsearch, scores them against AbuseIPDB, and pushes high-risk IPs to an OPNsense firewall blocklist via REST API automatically. Rewrote the pipeline in async Python using asyncio and aiohttp, cutting check time by 76% (34s to 8s on 90 IPs). Validated end-to-end blocking using known malicious IPs spoofed from Kali hitting the honeypot sensors.
-- **[Cowrie SSH Honeypot + SIEM](https://github.com/TrystanRuiz/cowrie-honeypot-siem)** - Built a Cowrie SSH honeypot integrated with Splunk to capture and analyze brute-force activity; simulated attacks with Hydra and hardened the host using UFW and Fail2ban. Custom Splunk dashboards profile attacker behavior per IP, and fail2ban auto-bans after 3 failed attempts.
-- **[Splunk SIEM Environment](https://github.com/TrystanRuiz/Splunk-Sysmon-SIEM)** - Self-hosted Splunk Enterprise ingesting Windows Security + Sysmon telemetry, with custom SOC dashboards tracking LOLBin abuse, encoded PowerShell, lsass access, and brute force patterns, all mapped to MITRE ATT&CK technique IDs.
+- **[T-POT Honeypot Threat Intelligence](https://github.com/TrystanRuiz/tpot-honeypot-threat-intel)** - T-POT Standard on Proxmox capturing 762k+ events from 115 unique IPs. Built a Python pipeline that scores attacker IPs against AbuseIPDB and auto-pushes blocks to OPNsense via REST API. Async rewrite cut check time by 76% (34s to 8s). Validated end-to-end with known malicious IPs from Kali.
+- **[Cowrie SSH Honeypot + SIEM](https://github.com/TrystanRuiz/cowrie-honeypot-siem)** - Cowrie SSH honeypot integrated with Splunk. Simulated brute-force with Hydra, built attacker profiling dashboards, hardened with UFW and custom Fail2ban jails.
+- **[Splunk SIEM Environment](https://github.com/TrystanRuiz/Splunk-Sysmon-SIEM)** - Self-hosted Splunk ingesting Windows Security and Sysmon telemetry with custom SOC dashboards tracking LOLBin abuse, encoded PowerShell, lsass access, and brute force patterns mapped to MITRE ATT&CK.
 
 ## SOC & Incident Response
 
@@ -16,7 +16,7 @@ Seeking cybersecurity / SOC analyst / security operations internships where I ca
 
 ## Infrastructure
 
-- **[HomeLab](https://github.com/TrystanRuiz/HomeLab)** - Proxmox VE hypervisor running 7 LXC containers and 2 VMs: Splunk SIEM, Grafana/Prometheus monitoring, Gitea, Authelia SSO, Nginx Proxy Manager, and Kali/Windows attack simulation environments. Tailscale subnet router for remote access.
+- **[HomeLab](https://github.com/TrystanRuiz/HomeLab)** - Proxmox VE running 7 LXC containers and 2 VMs: Splunk, Grafana/Prometheus, Gitea, Authelia SSO, Nginx Proxy Manager, and Kali/Windows attack simulation. Tailscale subnet router for remote access.
 
 ## Technical Skills
 
