@@ -1,5 +1,7 @@
 # Trystan Ruiz
 
+[Portfolio](https://trystanruiz.tech) | [LinkedIn](https://linkedin.com/in/trystanruiz)
+
 UCF IT student focused on cybersecurity, SIEM, SOC operations, and homelab infrastructure. Building hands-on projects in Splunk, Sysmon, Cowrie, Linux hardening, and incident analysis. CompTIA Security+ certified, Network+ and CySA+ in progress.
 
 Seeking cybersecurity / SOC analyst / security operations internships where I can contribute in monitoring, detection, triage, and hands-on lab work.
@@ -23,7 +25,3 @@ Seeking cybersecurity / SOC analyst / security operations internships where I ca
 ## Technical Skills
 
 Splunk, Sysmon, Cowrie, T-POT, Suricata, ELK Stack, Python, asyncio, aiohttp, AbuseIPDB, OPNsense, Hydra, UFW, Fail2ban, Proxmox, Linux, Windows Server, Grafana, Prometheus, Tailscale, MITRE ATT&CK, log analysis, alert triage, incident reporting, blue team operations
-
-## Connect
-
-[Portfolio](https://trystanruiz.tech) | [LinkedIn](https://linkedin.com/in/trystanruiz)
