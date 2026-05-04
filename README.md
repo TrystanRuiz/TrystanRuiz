@@ -8,7 +8,7 @@ Seeking cybersecurity / SOC analyst / security operations internships where I ca
 
 ## AI Security Tools
 
-- **[ThreatScope](https://github.com/TrystanRuiz/ThreatScope)** - Local-first AI-powered SOC triage tool built in Python. Parses phishing emails and security alerts, extracts and defangs IOCs, enriches indicators against VirusTotal, AbuseIPDB, MalwareBazaar, and NVD, maps findings to 20 MITRE ATT&CK techniques with confidence scoring, and generates investigation reports via a local LLM running through Ollama. No data leaves the machine.
+- **[TriageAI](https://github.com/TrystanRuiz/TriageAI)** - Local-first AI-powered SOC triage tool built in Python. Parses phishing emails and security alerts, extracts and defangs IOCs, enriches indicators against VirusTotal, AbuseIPDB, MalwareBazaar, and NVD, maps findings to 20 MITRE ATT&CK techniques with confidence scoring, and generates investigation reports via a local LLM running through Ollama. No data leaves the machine.
 
 ## Honeypot & SIEM
 
