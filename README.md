@@ -18,7 +18,7 @@ Seeking cybersecurity / SOC analyst / security operations internships where I ca
 
 ## Honeypot & Threat Intelligence
 
-- **[Honeypot Threat Pipeline](https://github.com/TrystanRuiz/honeypot-threat-pipeline)** - T-POT Standard on Proxmox with 21 sensors capturing 762k+ events from 115 unique IPs. Built a Python pipeline that pulls attacker IPs from Elasticsearch, scores them against AbuseIPDB, and auto-pushes blocks to OPNsense via REST API. Rewrote it in async Python and cut check time by 76%. Includes standalone Cowrie SSH honeypot with Splunk SIEM integration, Hydra brute-force simulation, and network hardening with UFW and Fail2Ban.
+- **[Honeypot Threat Pipeline](https://github.com/TrystanRuiz/honeypot-threat-pipeline)** - T-POT on Proxmox capturing 762k+ events across 21 sensors. Built a Python pipeline that scores attacker IPs against AbuseIPDB and auto-pushes blocks to OPNsense via REST API. Includes standalone Cowrie SSH honeypot with Splunk integration and network hardening with UFW and Fail2Ban.
 
 ## SOC & Incident Response
 
@@ -27,7 +27,3 @@ Seeking cybersecurity / SOC analyst / security operations internships where I ca
 ## Infrastructure
 
 - **[HomeLab](https://github.com/TrystanRuiz/HomeLab)** - Proxmox VE running 7 LXC containers and 2 VMs including Splunk, Grafana/Prometheus, Gitea, Authelia SSO, and Nginx Proxy Manager. Kali and Windows VMs for attack simulation, with Tailscale subnet routing for remote access.
-
-## Technical Skills
-
-Splunk, Sysmon, Ollama, Streamlit, VirusTotal API, AbuseIPDB, MalwareBazaar, MITRE ATT&CK, Cowrie, T-POT, Suricata, ELK Stack, Python, asyncio, aiohttp, OPNsense, Hydra, UFW, Fail2ban, Proxmox, Linux, Windows Server, Active Directory, Group Policy, Grafana, Prometheus, Tailscale, log analysis, alert triage, incident reporting, blue team operations
