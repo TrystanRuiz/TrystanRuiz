@@ -6,10 +6,6 @@ UCF IT student focused on cybersecurity, SIEM, SOC operations, and homelab infra
 
 Seeking cybersecurity / SOC analyst / security operations internships where I can contribute in monitoring, detection, triage, and hands-on lab work.
 
-## AI Security Tools
-
-- **[TriageAI](https://github.com/TrystanRuiz/TriageAI)** - Local-first AI-powered SOC triage tool built in Python. Parses phishing emails and security alerts, extracts and defangs IOCs, enriches indicators against VirusTotal, AbuseIPDB, MalwareBazaar, and NVD, maps findings to 20 MITRE ATT&CK techniques with confidence scoring, and generates investigation reports via a local LLM running through Ollama. No data leaves the machine.
-
 ## Active Directory & SIEM
 
 - **[Active Directory Security Lab](https://github.com/TrystanRuiz/ad-security-monitoring-hardening-lab)** - Built a Windows domain (BLUECORP.local) on Proxmox with a DC, file server, Sysmon, and Splunk SIEM. Simulated 7 attack scenarios mapped to MITRE ATT&CK, investigated each in Splunk, and hardened the domain via Group Policy. 4 incident reports with full evidence.
