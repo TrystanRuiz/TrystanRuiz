@@ -6,6 +6,10 @@ UCF IT student focused on cybersecurity, SIEM, SOC operations, and homelab infra
 
 Seeking cybersecurity / SOC analyst / security operations internships where I can contribute in monitoring, detection, triage, and hands-on lab work.
 
+## AI Security Tooling
+
+- **[VULCAN](https://github.com/TrystanRuiz/VULCAN)** - Autonomous terminal security agent. Runs a full scan → plan → approve → verify pipeline across Windows and Linux targets via local, SSH, or WinRM. Uses a ReAct LLM loop (qwen3-coder:30b via Ollama) to reason over collector output, generate structured findings, gate remediations behind a human approval prompt, and roll back any change it applies. Built as a real deployable tool, not a demo.
+
 ## Active Directory & SIEM
 
 - **[Active Directory Security Lab](https://github.com/TrystanRuiz/ad-security-monitoring-hardening-lab)** - Built a Windows domain (BLUECORP.local) on Proxmox with a DC, file server, Sysmon, and Splunk SIEM. Simulated 7 attack scenarios mapped to MITRE ATT&CK, investigated each in Splunk, and hardened the domain via Group Policy. 4 incident reports with full evidence.
